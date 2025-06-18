@@ -1,6 +1,6 @@
 # 🕷️ Spider-Man | Multiversos - Projeto Web Interativo
 
-![Imagem do Projeto](https://seu-usuario.github.io/spider-verse)
+![Imagem do Projeto](assets/images/Projeto-Pronto.png)
 
 **Explore o incrível multiverso do Homem-Aranha** através deste projeto web interativo que homenageia as diferentes versões do icônico herói da Marvel. Explore as diferentes faces do Homem-Aranha em um carrossel 3D imersivo!
 
