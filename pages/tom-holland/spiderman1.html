@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Configurações básicas do documento HTML -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link para o arquivo CSS de estilos -->
+  <link href="../../assets/css/internal.css" rel="stylesheet" type="text/css" />
+
+  <!-- Título da página exibido na aba do navegador -->
+  <title>Spider Man | Multiverso</title>
+</head>
+
+<body>
+  <!-- Container principal que envolve todo o conteúdo -->
+  <div class="s-wrapper">
+    <!-- Vídeo de fundo que reproduz automaticamente em loop -->
+    <video autoplay loop>
+      <source src="../../assets/videos/spiderman-2017-trailer.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Coluna esquerda - Menu de navegação -->
+    <div class="s-left-column">
+      <nav class="navigator">
+        <!-- Ícone do Spider-Man com link para a página inicial -->
+        <div class="navigator__icon">
+          <a href="../../index.html">
+            <img src="../../assets/images/icons/spiderman1-tom.png" />
+          </a>
+        </div>
+        <!-- Menu numérico de navegação entre filmes -->
+        <ul>
+          <li><a href="#01" class="active">01</a></li>  <!-- Item ativo (primeiro filme) -->
+          <li><a href="spiderman2.html">02</a></li>     <!-- Link para o segundo filme -->
+          <li><a href="spiderman3.html">03</a></li>     <!-- Link para o terceiro filme -->
+        </ul>
+      </nav>
+    </div>
+    <!-- FIM - Coluna da esquerda com menu -->
+
+    <!-- Conteúdo principal da página -->
+    <div class="s-main-content">
+      <!-- Seção superior do conteúdo principal -->
+      <div class="s-main-content__top">
+        <!-- Logo do filme -->
+        <div class="s-logo">
+          <img src="../../assets/images/spiderman-tom/movie-01/logo.png" alt="Spiderman (2002)"
+            title="Spiderman (2002)" />
+        </div>
+
+        <!-- Seção de descrição do filme -->
+        <div class="s-description">
+          <!-- Informações em formato de pílulas -->
+          <div class="pills">
+            <ul>
+              <li>Ano: 2002</li>          <!-- Ano de lançamento do filme -->
+              <li>Diretor: Sam Raimi</li>  <!-- Diretor do filme -->
+            </ul>
+          </div>
+          <!-- Texto da sinopse do filme -->
+          <div class="s-description__text">
+            <p><strong>Sinopse:</strong>&nbsp;Depois de ser picado por uma aranha geneticamente modificada em uma
+              demonstração científica, o jovem nerd Peter Parker ganha superpoderes. Inicialmente, ele pretende usá-los
+              para para ganhar dinheiro, adotando o nome de Homem-Aranha e se apresentando em lutas de exibição. Porém,
+              ao presenciar o assassinando de seu tio Ben e sentir-se culpado, Peter decide não mais usar seus poderes
+              para proveito próprio e sim para enfrentar o mal, tendo como seu primeiro grande desafio o psicótico
+              Duende Verde.</p>
+          </div>
+        </div>
+
+        <!-- Seção de links externos -->
+        <div class="s-links">
+          <ul>
+            <!-- Botão para assistir ao trailer no YouTube -->
+            <li>
+              <a href="https://www.youtube.com/watch?v=TYMMOjBUPMM" class="link-button" target="_blank">
+                <span class="icon">
+                  <div class="play-icon">&nbsp;</div>  <!-- Ícone de play -->
+                </span>
+                <span class="label">
+                  Assistir trailer  <!-- Texto do botão -->
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Seção inferior do conteúdo principal - Galeria de imagens -->
+      <div class="s-main-content__bottom">
+        <div class="gallery">
+          <ul>
+            <!-- Imagem 1 da galeria -->
+            <li><a href="#"><img src="../../assets/images/spiderman-tom/movie-01/gallery/image-01.png" alt=""></a></li>
+            <!-- Imagem 2 da galeria -->
+            <li><a href="#"><img src="../../assets/images/spiderman-tom/movie-01/gallery/image-02.png" alt=""></a></li>
+            <!-- Imagem 3 da galeria -->
+            <li><a href="#"><img src="../../assets/images/spiderman-tom/movie-01/gallery/image-03.png" alt=""></a></li>
+            <!-- Imagem 4 da galeria -->
+            <li><a href="#"><img src="../../assets/images/spiderman-tom/movie-01/gallery/image-04.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
